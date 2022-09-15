@@ -14,9 +14,9 @@ The program accepts a .lin file in the following format:
 
 This input can be visualized as follows:
 
-3x + 4y + 3z = 10
-x + 5y - z = 7
-6x + 3y + 7z = 15
+3x + 4y + 3z = 10 <br />
+x + 5y - z = 7 <br />
+6x + 3y + 7z = 15 <br />
 
 ## Command Line
 This program takes a minimum of one command line argument, being the name of the input file. Doing so solves the linear system by its default method, which is the Naive Gaussian Method.
