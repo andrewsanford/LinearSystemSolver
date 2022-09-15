@@ -1,9 +1,9 @@
 # LinearSystemSolver
 
-##Summary
+## Summary
 This project takes an input file that contains the data of a valid linear system and outputs a file displaying the results of that system.
 
-##Input
+## Input
 The program accepts a .lin file in the following format:
 
 3        <-- The system Size
@@ -18,7 +18,7 @@ This input can be visualized as follows:
 x + 5y - z = 7
 6x + 3y + 7z = 15
 
-##Command Line
+## Command Line
 This program takes a minimum of one command line argument, being the name of the input file. Doing so solves the linear system by its default method, which is the Naive Gaussian Method.
 
 ex: ./LinearSystemSolver.exe SampleInput.lin
@@ -27,7 +27,7 @@ Alternatively, the program accepts the --spp tag before the file name to indicat
 
 ex: ./LinearSystemSolver.exe --spp SampleInput.lin
 
-##Output
+## Output
 After it is finished inputing the data and calculating the answers, the program will output a file by the same name of the input file with the .sol type. The value of each variable will be given in respective order that they were taken. Using the example above, the default expected output file will look as follows:
 
 2 1 0
