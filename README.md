@@ -6,11 +6,11 @@ This project takes an input file that contains the data of a valid linear system
 ## Input
 The program accepts a .lin file in the following format:
 
-3        <-- The system Size
-3 4 3    <-- Coefficients of first equation
-1 5 -1   <-- Coefficients of second equation
-6 3 7    <-- Coefficients of third equation
-10 7 15  <-- Answers to each equation in respective order
+3        <-- The system Size <br />
+3 4 3    <-- Coefficients of first equation <br />
+1 5 -1   <-- Coefficients of second equation <br />
+6 3 7    <-- Coefficients of third equation <br />
+10 7 15  <-- Answers to each equation in respective order <br />
 
 This input can be visualized as follows:
 
