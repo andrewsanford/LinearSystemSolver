@@ -24,7 +24,7 @@ int getSize(string fileNamePar) {
 }
 
 vector<double> getLastLine(int vectorSizePar, string fileNamePar) {
-	double dump; ;
+	double dump;
 	ifstream inputFile;
 	vector<double> returnVector;
 
